@@ -1,0 +1,98 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+}
+
+.about {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f19494;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: #575fce;
+    margin-left: 30px;
+}
+
+.header {
+    background-color: #f19494;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.menu {
+    margin: 10px;
+    height: min-content;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 6000px;
+}
+
+.info {
+    text-align: center;
+    color: #eeeeee;
+}
+
+.item {
+    position: relative;
+    background-color: #ffc9a4;
+    border-radius: 40px;
+    margin: 20px;
+    width: 800px;
+}
+
+.item p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color: #ffffff;
+    mix-blend-mode: exclusion;
+}
+
+.item:hover p {
+    opacity: 1;
+}
+
+.item:hover img {
+    opacity: 0.48;
+}
+
+img {
+    border-radius: 5px;
+}
+
+a:link {
+    color: #575fce;
+}
+
+a:visited {
+    color: #ffcbd2;
+}
